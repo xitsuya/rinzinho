@@ -51,7 +51,9 @@ exports.run = (bot, message, args) => {
         .setColor("#91489a")
 
     if (reason.length < 1) return message.channel.send({ embed }).then(message => message.delete(5000));
-   var embed = new Discord.RichEmbed()
+
+​
+    var embed = new Discord.RichEmbed()
         .setAuthor("| Erro!", message.author.avatarURL)
         .setTimestamp()
         .setDescription("Eu não posso dar kick nesse membro!")
@@ -71,4 +73,3 @@ exports.run = (bot, message, args) => {
             channel.send({ embed });
 
             bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
-    
