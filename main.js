@@ -128,14 +128,12 @@ client.on('userUpdate',(oUser, nUser) => {
   });
 
 client.on("message", message => {
+
 if(message.content.includes("https://discord.gg/")){
   if(message.content === "https://discord.gg/RUc4vYz") return;
   message.delete()
-  
-if(message.channel.id === "396139789478395904"){
+  }else  if(message.channel.id === "396139789478395904"){
   message.delete()
 }
-
-  )
 })
 client.login(config.token);
