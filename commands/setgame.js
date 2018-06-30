@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 exports.run = (bot, message, args) => { 
- bot.user.setGame(message.guild.memberCount + " Membros! ❤")
-    bot.user.setActivity("Atualmente temos: "+ message.guild.memberCount + " Membros! ❤")
+ bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+    message.channel.send("Atualmente temos: "+ message.guild.memberCount + " Membros! ❤")
 
         }

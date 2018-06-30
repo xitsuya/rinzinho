@@ -13,7 +13,7 @@ exports.run = (bot, message, args) => {
                                 .setTitle("Eu apaguei " + toDeleteCount + " mensagens desse canal!")
                                 .setAuthor(message.author.tag, message.author.avatarURL)
                                 .setColor("#91489a")
-                                .setFooter("Rin-Bot", "https://cdn.discordapp.com/avatars/366922505480568852/8bc60c31c633300d19976f5a353784a6.png?size=2048")
+                                .setFooter("Rin-Bot", "https://cdn.discordapp.com/avatars/401995937318305793/92e363825d98c2595125a2669cf45904.png?size=2048")
                                 .setTimestamp()
                             message.channel.sendMessage({ embed }).then(message => {
                                 setTimeout(() => { message.delete() }, 5000)
@@ -24,7 +24,7 @@ exports.run = (bot, message, args) => {
                             .setDescription("Uso correto : `+clear 1`")
                             .setAuthor(message.author.tag, message.author.avatarURL)
                             .setColor("#91489a")
-                            .setFooter("Rin-Bot", "https://cdn.discordapp.com/avatars/366922505480568852/8bc60c31c633300d19976f5a353784a6.png?size=2048")
+                            .setFooter("Rin-Bot", "https://cdn.discordapp.com/avatars/401995937318305793/92e363825d98c2595125a2669cf45904.png?size=2048")
                             .setTimestamp()
                         message.channel.send({ embed }).then(message => {
                             setTimeout(() => { message.delete() }, 5000);
