@@ -129,7 +129,7 @@ client.on('userUpdate',(oUser, nUser) => {
 
 client.on("message", message => {
 
-if(message.content.includes("https://discord.gg/")){
+if(message.content.includes("https://discord")){
   if(message.content === "https://discord.gg/RUc4vYz") return;
   message.delete()
   }else  if(message.channel.id === "396139789478395904"){
