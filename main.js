@@ -108,7 +108,7 @@ client.on('userUpdate',(oUser, nUser) => {
         let canal = guild.channels.find("name", "rin-log")
         if(!canal) return;
         canal.send({embed});
-        
+      
       }
       if (guild.members.has(nUser.id) && oUser.username !== nUser.username) {
         var embed = new Discord.RichEmbed()
