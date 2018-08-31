@@ -181,5 +181,5 @@ exports.run = (bot, message, args) => {
             .setDescription("Uma bela foto do shen para: <@" + message.author.id+">")
             message.channel.sendMessage({embed})
         }
-        bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+        bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
     }

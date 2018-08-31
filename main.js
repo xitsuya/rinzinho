@@ -63,7 +63,7 @@ let canal = newMessage.guild.channels.find("name", "rin-log")
 if(!canal) return;
 canal.send({embed})
 
-client.user.setActivity(newMessage.guild.memberCount + " Membros! ~ ❤")
+client.user.setActivity(newMessage.guild.memberCount + " Minions! ~ ❤")
 })
 
 client.on("guildCreate", (guild)=> {
@@ -93,7 +93,7 @@ client.on("messageDelete", (message) =>{
   if(!canal) return;
   canal.send({embed})
 
-  client.user.setActivity(message.guild.memberCount + " Membros! ~ ❤")
+  client.user.setActivity(message.guild.memberCount + " Minions! ~ ❤")
 })
 client.on('userUpdate',(oUser, nUser) => {
     client.guilds.forEach((guild) => {

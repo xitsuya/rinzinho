@@ -1,6 +1,6 @@
    const Discord = require("discord.js")
 exports.run = (bot, message, args) => {
-    bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+    bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
     let parts = message.content.split(' ');
     let user = message.mentions.users.first();
     let guild = message.guild;

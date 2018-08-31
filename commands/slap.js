@@ -108,5 +108,5 @@ var embed = new Discord.RichEmbed()
         .setDescription("**"+user.username+" ** *levou um tapa* de **"+message.author.username+"**")
         message.channel.sendMessage({embed})
     }
-    bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+    bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
 }

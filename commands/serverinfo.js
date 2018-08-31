@@ -29,6 +29,6 @@ exports.run = (bot, message, args) => {
         .setTimestamp()
         .setColor("#91489a")
         message.channel.send({embed}).then(message => message.delete(5000))
-        bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+        bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
         
 }

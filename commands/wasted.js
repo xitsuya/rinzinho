@@ -51,6 +51,6 @@ if (randomNumber === 1) {
     .setColor("#91489a")
     .setDescription("<@"+message.author.id+"> *Got Wasted*")
     message.channel.send({embed})
-   bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+   bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
 }
 }

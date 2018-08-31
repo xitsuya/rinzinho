@@ -428,5 +428,5 @@ var embed = new Discord.RichEmbed()
                 .setDescription("Uma foto de peloca para: <@" + message.author.id+">")
                 message.channel.sendMessage({embed})
             } 
-            bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+            bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
                 }

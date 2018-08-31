@@ -49,5 +49,5 @@ message.member.send({ embed })
 message.member.send({ embed })
 message.react("✅")
 message.channel.send("Mandarei meus comandos no seu privado!")
-bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
 }

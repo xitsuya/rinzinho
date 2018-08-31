@@ -108,5 +108,5 @@ exports.run = (bot, message, args) => {
         .setDescription("**" + user.username + "**, você ganhou um abraço de  **" + message.author.username+"**")
         message.channel.sendMessage({embed})
     } 
-    bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+    bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
         }

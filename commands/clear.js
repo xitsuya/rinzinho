@@ -28,7 +28,7 @@ exports.run = (bot, message, args) => {
                             .setTimestamp()
                         message.channel.send({ embed }).then(message => {
                             setTimeout(() => { message.delete() }, 5000);
-                            bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+                            bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
                         })
                     }
                 }

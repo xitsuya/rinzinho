@@ -78,6 +78,6 @@ var embed = new Discord.RichEmbed()
     .setFooter("Comando Executado Por: " + message.author.tag, message.author.avatarURL)
     xd.send({ embed })
 
-   bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+   bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
 
 }

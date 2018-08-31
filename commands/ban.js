@@ -51,5 +51,5 @@ const Discord = require("discord.js")
                let channel = guild.channels.find("name", "ban-log");
                if (!channel) return;
                channel.send({ embed });
-               bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+               bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
     }

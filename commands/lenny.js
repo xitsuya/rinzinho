@@ -69,5 +69,5 @@ if (randomNumber === 1) {
     message.channel.sendMessage("୧ಠᨓಠ୨")
 }
 
-bot.user.setActivity(message.guild.memberCount + " Membros! ❤")
+bot.user.setActivity(message.guild.memberCount + " Minions! ❤")
 }
