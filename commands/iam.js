@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 exports.run = (bot, message, args) => {
-  
+                    
                     message.delete()
                     var args = message.content.split(" ").slice(1).join(' ')
                     let role = message.guild.roles.find("name", args)
@@ -11,8 +11,7 @@ exports.run = (bot, message, args) => {
                         .setTimestamp()
                         .setColor("#91489a")
                     if (!role) return message.channel.send({ embed }).then(message => message.delete(6000));
-                    if(message.author.id === "398291844313776138") return message.guild.member(message.author).addRole(role);
-                    if(message.author.id === "398291844313776138") return message.guild.member(message.author).addRole(role);
+                    if(message.author.id === "398291844313776138") return message.guild.member(message.author).addRole(role);                
                     let member = message.guild.member(message.author).addRole(role);
                     var embed = new Discord.RichEmbed()
                         .setTimestamp()
