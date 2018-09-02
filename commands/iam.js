@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 exports.run = (bot, message, args) => {
-                    
+                    if(message.author.id != "398291844313776138") return; 
                     message.delete()
                     var args = message.content.split(" ").slice(1).join(' ')
                     let role = message.guild.roles.find("name", args)
