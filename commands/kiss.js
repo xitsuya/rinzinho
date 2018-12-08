@@ -8,6 +8,7 @@ exports.run = (bot, message, args) => {
     .setColor("#91489a")
     .setDescription("Retribuindo com um beijinho na bochecha :heart:")
     if(user.id === "366922505480568852") return message.channel.send({embed})
+    if(user.id === "213798448745545728") return message.channel.send({embed})
 
     var embed = new Discord.RichEmbed()
     .setColor("#91489a")
