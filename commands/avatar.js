@@ -23,7 +23,6 @@ exports.run = (bot, message, args) => {
         message.channel.send({embed})
 
     });
-
     
     var embed = new Discord.RichEmbed()
         .setAuthor(message.author.tag, message.author.avatarURL)
