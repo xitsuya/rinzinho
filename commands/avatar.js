@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+aconst Discord = require("discord.js");
 exports.run = (bot, message, args) => {
   bot.user.setActivity(message.guild.memberCount + " Minions! ❤");
   let parts = message.content.split(" ");
