@@ -10,9 +10,9 @@
     "start": "node main.js"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "discord.js": "^11.5.1",
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "google-translate-api": "^2.3.0",
     "moment": "^2.24.0",
     "fs": "^0.0.2"
