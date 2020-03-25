@@ -15,7 +15,8 @@
     "chalk": "^3.0.0",
     "google-translate-api": "^2.3.0",
     "moment": "^2.24.0",
-    "fs": "^0.0.2"
+    "fs": "^0.0.2",
+    "node": "^13.11.0"
   },
   "engines": {
     "node": "8.x"
